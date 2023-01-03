@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tm_age"
+    tools:context=".Mkisusywud">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap on all lucky items and get points"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <ImageView
+        android:id="@+id/firifd"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.120000005"
+        app:srcCompat="@drawable/tm_age_1" />
+
+    <ImageView
+        android:id="@+id/coxkvjixc"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="@+id/firifd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firifd"
+        app:layout_constraintTop_toTopOf="@+id/firifd"
+        app:srcCompat="@drawable/tm_age_2" />
+
+    <ImageView
+        android:id="@+id/wpodkfko"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/firifd"
+        app:layout_constraintTop_toBottomOf="@+id/firifd"
+        app:layout_constraintVertical_bias="0.050000012"
+        app:srcCompat="@drawable/tm_age_3" />
+
+    <ImageView
+        android:id="@+id/vobjiv"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wpodkfko"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wpodkfko"
+        app:layout_constraintTop_toTopOf="@+id/wpodkfko"
+        app:srcCompat="@drawable/tm_age_6" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="250dp"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="3dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/clr_tm_age_b"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_doubles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doubles scores : x2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.060000002" />
+</androidx.constraintlayout.widget.ConstraintLayout>
